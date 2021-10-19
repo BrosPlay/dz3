@@ -1,0 +1,63 @@
+//Артемьев Кирилл П43021
+#include <iostream>
+using namespace std;
+int main(){
+/* Boolean 8
+Даны два целых числа: A, B. Проверить истинность высказывания:«Каждое из чисел A и B нечетное».
+int A;
+int B;
+ bool res;
+ cout << boolalpha;
+ cin >> A >> B;
+ res = A % 2 == 1 && B % 2 == 1;
+ cout << res << endl;
+*/
+
+
+
+/* Boolean 9
+ Даны два целых числа: A, B. Проверить истинность высказывания:«Хотя бы одно из чисел A и B нечетное».
+int A;
+int B;
+ bool res;
+ cout << boolalpha;
+ cin >> A >> B;
+ res = A % 2 == 1 || B % 2 == 1;
+ cout << res << endl;
+*/
+
+/* Boolean 11
+ Даны два целых числа: A, B. Проверить истинность высказывания: «Числа A и B имеют одинаковую четность».
+int A;
+int B;
+ bool res;
+ cout << boolalpha;
+ cin >> A >> B;
+ res = ((A % 2 == 0)  && (B % 2 == 0)) ||((A % 2 == 1) && (A % 2 == 1));
+ cout << res << endl;
+*/
+
+
+/* Boolean 12
+ . Даны три целых числа: A, B, C. Проверить истинность высказывания: «Каждое из чисел A, B, C положительное».
+int A;
+int B;
+int C;
+ bool res;
+ cout << boolalpha;
+ cin >> A >> B >> C;
+ res = A > 0 && B > 0 && C > 0;
+ cout << res << endl;
+*/
+
+/* Boolean 14
+  Даны три целых числа: A, B, C. Проверить истинность высказывания: «Ровно одно из чисел A, B, C положительное».
+int A;
+int B;
+int C;
+ bool res;
+ cout << boolalpha;
+ cin >> A >> B >> C;
+ res = ((! (A > 0)) && (! (B > 0)) &&   (C > 0))|| ((! (A > 0)) &&  (B > 0) && (! (C > 0))) || ( (A > 0) && (! (B > 0)) && (! (C > 0)))  ;
+ cout << res << endl;
+*/
