@@ -9,10 +9,10 @@ int main(){
   srand(time(0));
  const int n = 100;
  int arr[n];
- int a = 0;
+ int sum = 0;
  for(int i = 0;i < n;i++)arr[i] = rand() % 100;
  for(int i = 0;i < n;i++) {
- a = a + arr[i];
+ sum = sum + arr[i];
  }
  cout << a << endl;
  */
@@ -25,11 +25,11 @@ int main(){
  srand(time(0));
  const int n = 80;
  int arr[n];
- int a = 0;
+ int sum poloz = 0;
  for(int i = 0;i < n;i++)arr[i] = rand() % 100;
  for(int i = 0;i < n;i++) {
 if(arr[i] > 0){
-  a = a + arr[i];
+  sum poloz = sum poloz + arr[i];
 }
  }
  cout << a << endl;
@@ -41,11 +41,11 @@ if(arr[i] > 0){
  srand(time(0));
  const int n = 60;
  int arr[n];
- int a = 0;
+ int kol = 0;
  for(int i = 0;i < n;i++)arr[i] = rand() % 100;
  for(int i = 0;i < n;i++) {
  if(arr[i] % 3 == 0)
-   a++;
+   kol++;
  }
  cout << a << ' ';
  */
@@ -54,12 +54,12 @@ if(arr[i] > 0){
 srand(time(0));
  const int n = 90;
  int arr[n];
- int a = 1;
+ int pr = 1;
  for(int i = 0;i < n;i++)arr[i] = rand() % 100;
  for(int i = 0;i < n;i++) {
  if(arr[i] % 2 == 1)
-   a = a * arr[i];
+   pr = pr * arr[i];
  }
- cout << a << ' ';
+ cout << pr << ' ';
 */
  }
